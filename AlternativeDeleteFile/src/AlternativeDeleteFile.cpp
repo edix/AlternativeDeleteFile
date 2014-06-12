@@ -64,7 +64,7 @@ BOOL MyDeleteFile(LPCWSTR lpFileName)
 	return fResult;
 }
 
-int main(int argc, char** argv[])
+int main(int argc, char* argv[])
 {
 	if (MyDeleteFile(L"d:\\test.txt"))
 	{
